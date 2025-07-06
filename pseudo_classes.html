@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hover_effect:active{
+            background-color: yellowgreen;
+            font-size: 60px;
+            text-shadow: 4px,5,px,2px blueviolet;
+        }
+        hover_effect{
+            color: blueviolet;
+
+        }
+        button{
+            background-color: blueviolet;
+            font-size: 30px;
+            padding: 20px;
+            color: black;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        button:active{
+        background-color: blue;
+        font-size: 30px;
+        padding: 20px;
+        color: green;
+        border-radius: 20px;
+
+        }
+        a:visited{
+            color: greenyellow;
+
+        }
+        /* input:focus{
+            background-color: blue;
+        } */
+        ul{
+            width: 300px;
+            padding: 10px;
+            list-style-type: none;
+        
+        }
+        li{
+            padding: 10px;
+            border: 2px solid red;
+            margin-bottom: 10px;
+            border-radius: 10px;
+        }
+       li:nth-child(odd){
+        background-color: aquamarine;
+       }
+       li:nth-child(even){
+        background-color: lightpink;
+       }
+       li:nth-child(5){
+        background-color: red;
+       }
+       li:first-child{
+        background-color: black;
+       }
+       li:last-child{
+        background-color: black;
+        color: white;
+       }
+       input[type="text"]{
+        border: 8px solid red;
+        padding: 15px;
+       }
+
+        input[placeholder]{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+</head>
+<body>
+    <input type="text" placeholder="enter name">
+    <!-- ul>li*10{item $} -->
+    <ul><li>item 1</li>
+    <li>item 2</li>
+    <li>item 3</li>
+    <li>item 4</li>
+    <li>item 5</li>
+    <li>item 6</li>
+    <li>item 7</li>
+    <li>item 8</li>
+    <li>item 9</li>
+    <li>item 10</li>
+    
+    
+        
+    <a href="https://www.federalbank.co.in/">click here</a>
+    <input type="text" placeholder="enter the number">
+    <button> click me</button>
+    <h1 class="hover_effect">  welcome poonam and nisha</h1>
+</body>
+</html>
